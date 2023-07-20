@@ -11,7 +11,7 @@ def setup():
 
 
 def draw():
-    # background() draws the color or image onto the window.
+     background() draws the color or image onto the window.
     # In this case the '#FFFFFF' is white
     background('#FFFFFF')
     
@@ -32,6 +32,7 @@ def draw():
         
 
     # TODO: Add some other shapes with different sizes and colors
-    # rect(x, y, width, height)
-    # triangle(x1, y1, x2, y2, x3, y3)
+     #rect(x, y, width, height)
+     #triangle(x1, y1, x2, y2, x3, y3)
+    # square(x,y,width,height)
     

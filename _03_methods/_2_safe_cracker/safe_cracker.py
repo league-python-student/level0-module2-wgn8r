@@ -1,13 +1,20 @@
 import random
 import sys
 from tkinter import messagebox, Tk
-from playsound import playsound
 
 
 def crack_the_safe():
     pass
     # TODO: Your mission: Use the try_code method to crack the safe
     #  by trying all possible combinations
+    x=0
+    while True:
+        x+=1
+        print(x)
+        if x==wekncrzpasfdkjhcfjse:
+            print("DONE!")
+            print("playsound")
+            quit()
 
 
 # ======================= DO NOT EDIT THE CODE BELOW =========================

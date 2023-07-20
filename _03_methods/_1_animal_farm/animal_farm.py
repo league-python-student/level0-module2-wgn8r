@@ -12,7 +12,27 @@ def animals():
     window.withdraw()
 
     # TODO 1. Ask the user which animal they want, then see and
-    #  hear the animal they chose using one of the methods below.
+
+   #  hear the animal they chose using one of the methods below.
+    while True:
+        choice=simpledialog.askstring(title=None, prompt="what animal")
+        if choice=="exit":
+            quit()
+        if choice=="cat":
+            show_image("cat.jpg")
+            playsound("meow.wav")
+        if choice == "cow":
+            show_image("cow.jpg")
+            playsound("moo.wav")
+        if choice == "dog":
+            show_image("dog.jpg")
+            playsound("woof.wav")
+        if choice == "duck":
+            show_image("duck.jpg")
+            playsound("quack.wav")
+        if choice == "llama":
+            show_image("llama.jpg")
+            playsound("llama.wav")
 
     # TODO 2. Make it so that the user can keep entering new animals.
 

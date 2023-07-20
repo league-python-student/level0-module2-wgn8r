@@ -1,12 +1,12 @@
 # When you are done, this program will draw an ellipse 
 # that travels across the screen when the mouse is pressed.
-
+ 
 # ***********  SOUND ***************
 # Some computers are unable to play sounds. 
 # If you cannot play sound on this computer, set canPlaySounds to false.
 # If you are not sure, ask your teacher
 
-can_play_sounds = False
+
 
 def setup():
     size(800, 200)
@@ -21,7 +21,11 @@ def draw():
     
     # 2. Draw an ellipse of height and width 50. Make sure to use the x variable
     # for its X position. Pick a y value that places it half way down the window.
-    ellipse(x, 50,  50,   50)
+    ellipse(x, 100,  50,   50)
+    fill('#0000FF')
+    if mousePressed:
+        x+=5
+        ellipse(x, 100,  50,   50)
     
     # 3. Fill in the ellipse with a nice color. Remember to put it above the code
     # where you draw the ellipse.
